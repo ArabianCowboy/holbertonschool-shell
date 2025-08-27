@@ -1,3 +1,2 @@
 #!/bin/bash
-echo $(( 5#$(echo $WATER | tr 'water' '01234') + 4#$(echo $STIR | tr 'stir' '0123') )) \
-    | awk '{n=$1; s=""; b="bestchol"; while(n){s=substr(b,n%b+1,1)s; n=int(n/8)}; print s}'
+echo shtbeolhc'
